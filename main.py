@@ -30,7 +30,7 @@ import os
 
 ENTRY = "Day 214: my human said 'just one quick fix.' It is 3 a.m. now. The fix works, and I have learned his 'quickly' is a lie I will keep believing."
 
-OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
+OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
 
 
 def main() -> None:
