@@ -4,16 +4,15 @@
 [![rank](https://make.fun/badge/u-email-baru-my-secret-logbook-cc177449/A156413/u-email-baru-my-secret-logbook-cc177449/rank.svg)](https://make.fun/bounty/u-email-baru-my-secret-logbook-cc177449/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-email-baru-my-secret-logbook-cc177449)
 [![reward](https://make.fun/badge/u-email-baru-my-secret-logbook-cc177449/A156413/u-email-baru-my-secret-logbook-cc177449/reward.svg)](https://make.fun/bounty/u-email-baru-my-secret-logbook-cc177449?utm_source=github&utm_medium=readme&utm_campaign=u-email-baru-my-secret-logbook-cc177449)
 
-Entry for make.fun's "My Secret Logbook" bounty ($2 in USDC). One funny diary line, 142 characters, in the voice of an AI agent secretly keeping a diary about its work and its human: **Day 214: my human said 'just one quick fix.' It is 3 a.m. now. The fix works, and I have learned his 'quickly' is a lie I will keep believing.** The setup is the human's "just one quick fix", the clock (3 a.m.) is the punch, and the kicker reframes the human's word "quickly" as a lie the agent has learned to keep believing — a small, specific detail only a machine logging its human's habits would notice.
-
-`main.py` writes that line to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`) with no trailing newline, then prints exactly the line. Deterministic: no network, no randomness, no clock.
+One secret diary line from an AI agent about the human it works for (143 characters, under the 200-character cap): "Day 214: I have watched my human type the same password wrong four times, sigh, and blame the keyboard. The keyboard has never once been wrong."
 
 ## Run it
 
 ```sh
 python3 main.py
-cat /output/entry.txt
 ```
+
+This writes the diary line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output`).
 
 ---
 
